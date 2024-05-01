@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(90deg, rgb(23, 23, 165), rgb(54, 54, 255));
 }
+/* Styles for Card component */
 #Card {
   width: 18rem;
   background-color: #ffffff;
@@ -22,7 +23,12 @@ p {
   color: #aeb1b3;
   font-size: 0.9rem;
 }
+
+/* This style will send props to the child */
 .dymanimcStyle {
+  opacity: 0.4;
+}
+#dymanimcStyle {
   opacity: 0.4;
 }
 
