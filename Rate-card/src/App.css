@@ -1,1 +1,46 @@
+body {
+  background-image: linear-gradient(90deg, rgb(23, 23, 165), rgb(54, 54, 255));
+}
+#Card {
+  width: 18rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
 
+#ul {
+  list-style: none;
+}
+li {
+  margin-top: 10px;
+}
+.btn {
+  border-radius: 30px;
+  height: 40px;
+  width: 100%;
+}
+p {
+  color: #aeb1b3;
+  font-size: 0.9rem;
+}
+.dymanimcStyle {
+  opacity: 0.4;
+}
+
+/* 
+Style for App component  Elements*/
+.parent .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.parent:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+.parent .card {
+  transition: 400ms ease-in-out;
+}
+.card {
+  width: 18rem;
+  background-color: rgb(228, 228, 228);
+  border-radius: 20px;
+}
