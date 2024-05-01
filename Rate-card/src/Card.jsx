@@ -25,7 +25,9 @@ function Card(props) {
           <li className={style}>{xMark}Free Subdomain</li>
           <li className={style1}>{dummy}Monthly Status Report</li>
         </ul>
-        <button className="btn btn-primary px-5  mt-3 ">button</button>
+        <button className="btn btn-primary px-5  mt-3" id={style1}>
+          button
+        </button>
       </div>
     </div>
   );
